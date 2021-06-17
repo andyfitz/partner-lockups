@@ -19,23 +19,25 @@ html,body {
   left: 0;
   right: 0;
   bottom: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+ 
+  display: grid;
+  grid-template-columns: 1.5fr 0.05fr 1fr;
+
+  align-content: center;
   align-items: center;
-  text-align: center;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  grid-gap: 4vw;
 }
 
-h1 {
-  font-size: clamp( 16px, 10vh, 250px);
-  font-weight: 700;
-  line-height: 100%;
-  color: #1f2a44;
-  text-align: center;
-  width: 100%;
-  padding: 0 2rem;
-  z-index: 1;
+ 
+ 
+
+hr {
+  border: none;
+  background-color: currentcolor;
+  display: block;
+  appearance: none;
+  width: 0.2vw;
+  min-width: 1px;
+  height: 30vw;
+  opacity: 0.5;
 }
