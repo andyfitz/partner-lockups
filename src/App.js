@@ -4,7 +4,7 @@ import './App.css';
 
 function App({   partner, balance }) {
   return (
-    <div className="App" style="grid-template-columns: {balance}fr 0.05fr 1fr;">
+    <div className="App" >
        
       
 

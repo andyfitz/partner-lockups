@@ -22,7 +22,6 @@ html,body {
  
   display: grid;
   grid-template-columns: 1.5fr 0.05fr 1fr;
-
   align-content: center;
   align-items: center;
   grid-gap: 4vw;
